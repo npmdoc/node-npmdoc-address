@@ -1,6 +1,6 @@
 # npmdoc-address
 
-#### api documentation for  [address (v1.0.1)](https://github.com/node-modules/address#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-address.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-address) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-address.svg)](https://travis-ci.org/npmdoc/node-npmdoc-address)
+#### basic api documentation for  [address (v1.0.1)](https://github.com/node-modules/address#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-address.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-address) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-address.svg)](https://travis-ci.org/npmdoc/node-npmdoc-address)
 
 #### Get current machine IP, MAC and DNS servers.
 
@@ -89,7 +89,8 @@
         "test-cov": "istanbul cover node_modules/.bin/_mocha -- --check-leaks -t 5000 test/*.test.js",
         "test-travis": "istanbul cover node_modules/.bin/_mocha --report lcovonly -- --check-leaks -t 5000 test/*.test.js"
     },
-    "version": "1.0.1"
+    "version": "1.0.1",
+    "bin": {}
 }
 ```
 
